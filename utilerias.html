@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bóvedas Móvil - Manual de Usuario</title>
+    <link type="text/css" href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+    <link type="text/css" href="css/theme.css" rel="stylesheet">
+    <link type="text/css" href="css/font-awesome.css" rel="stylesheet">
+    <link type="text/css" href="css/fonts.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <i class="icon-reorder shaded"></i></a><a class="brand" href="#">Bóvedas Móvil - Manual de Usuario</a>
+        </div>
+      </div>
+      <!-- /navbar-inner -->
+    </div>
+    
+    <!-- /navbar -->
+    <div class="wrapper">
+      <div id="inicio" class="align-center">
+        <h1>Utilerías</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="sidebar">
+              <ul class="widget widget-menu unstyled">
+                <li><a href="index.html">Introducción</a></li>
+                <!--<li><a href="login.html">Login</a></li>-->
+                <li><a href="sincronizacion.html">Sincronización </a></li>
+                <li><a href="tareas.html">Tareas</a></li>
+                <li class="active"><a href="#">Utilerías</a></li>
+              </ul>
+              <!--/.widget-nav-->
+            </div>
+            <!--/.sidebar-->
+          </div>
+          <!--/.span3-->
+          <div class="span9">
+            <div class="content">
+              <div class="module">
+                <div class="module-body">
+                  <ol>
+                    <li><a href="#vercontextual">Verificación Contextual</a></li>
+                    <li><a href="#verlibre">Verificación Libre</a></li>
+                    <li><a href="#busqueda">Busqueda</a></li>
+                  </ol>
+                </div>
+              </div>
+
+              <div class="module">
+                <div id="vercontextual" class="module-head">
+                  <h3>Verificación Contextual<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+
+                  <p>La verificación contextual es una utilería disponible en las tareas autenticadas. Su objeto es verificar una sublista de los contenedores de la tarea. Se pensó que será útil para corroborar el avance de la tarea, para checar lo ubicado o lo recolectado.</p>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla única</span>
+
+                      <p>En esta pantalla tenemos:</p>
+
+                      <ol>
+                        <li>Título</li>
+                        <li>Panel de contenedores, se muestran los contenedores a verificar</li>
+                        <li>Botón <u><i>Limpiar</i></u> para empezar de nuevo la verificación, botón <u><i>Cerrar</i></u> para cerrar la utilería y regresar a la pantalla 1 de la tarea en ejecución</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/verificar/verificar01-elem01.jpg" />
+                    </div>
+                  </div>
+
+                  <p> Al inicio de la tarea de ingreso o de recolección se tiene un botón con la leyenda <i>Utils</i>, al presionarlo se muestra un menú contextual con tres opciones (recuerde que estas opciones están contextualizadas a la tarea en ejecución):</p>
+
+                  <div class="align-center">
+                    <img src="img/tareas/recoleccion/recoleccion08.jpg" />
+                  </div>
+
+                  <ol>
+                    <li><span class="bold">Verificar contenedores no ubicados/recolectados</span></li>
+                    Se muestra la utilería de verificación con la sublista de los contenedores que aún no han sido ubicados (tarea de ingreso) o recolectados (tarea de recolección). Si aún no se ha ubicado o recolectado ningún contenedor, esta opción mostrará la lista completa de contenedores de la tarea.
+
+                    <div class="align-center">
+                      <img src="img/utils/verificar/verificar01.jpg" />
+                    </div>
+
+                    <li><span class="bold">Verificar contenedores ubicados/recolectados</span></li>
+                    Se muestra la utilería de verificación con la sublista de los contenedores ya ubicados (ingreso) o recolectados (recolección). Si no hay ningún contenedor ubicado o recolectados, no se abre la utilería.
+
+                    <div class="align-center">
+                      <img src="img/utils/verificar/verificar02.jpg" />
+                    </div>
+
+                    <li><span class="bold">Verificar todos los contenedores</span></li>
+                    Se muestra la utilería con la lista completa de los contenedores de la tarea.
+
+                    <div class="align-center">
+                      <img src="img/utils/verificar/verificar03.jpg" />
+                    </div>
+
+                  </ol>
+
+                  <span class="bold">Procedimiento</span>
+
+                  <p>Una vez abiera la utilería ingresar los códigos de los contenedores, cuando un contenedor está en la lista se marca en la lista de color amarillo, si no está se ignora. Una vez completa la lista la aplicación reproduce un sonido indicando esto.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/verificar/proc01.jpg" />
+                  </div>
+                  
+                </div>
+              </div>
+
+              <!--/.module-->
+              <div class="module">
+                <div id="verlibre" class="module-head">
+                  <h3>Verificación Libre<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+
+                  <p>La utilería de verificación libre está disponible en la opción de <i>Utilerías</i> del menú inicial.</p>
+
+                  <div class="align-center">
+                    <img src="img/menu_inicio03-sel02.jpg" />
+                    <img src="img/utils/menu_utils01-sel01.jpg" />
+                  </div>
+
+                  <p>Se trata de que en un primer paso se ingrese una lista de contenedores (una lista cualquiera) que se verifica en un segundo paso. Se pensó para apoyar ciertos procesos internos en donde podría requerirse verificar una lista de contenedores físicamente contra un documento. Tenemos por ende dos pantallas:</p>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla 1</span>
+
+                      <p>En la pantalla inicial tenemos estos elementos:</p>
+
+                      <ol>
+                        <li>Título</li>
+                        <li>Panel de contenedores, se muestran los contenedores que se ha ingresado</li>
+                        <li>Botón <u><i>Limpiar</i></u> para borrar la lista de contenedores actual y empezar de nuevo, botón <u><i>Verificar</i></u> para pasar a la pantalla 2 con la lista actual de contenedores, botón <u><i>Cerrar</i></u> para cerrar la utilería y regresar al menú inicial</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/verificar2/verificar01-elem01.jpg" />
+                    </div>
+                  </div>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla 2</span>
+
+                      <p>En la segunda pantalla tenemos:</p>
+
+                      <ol>
+                        <li>Título</li>
+                        <li>Panel de contenedores, se muestran los contenedores ingresados en la pantalla 1</li>
+                        <li>Botón <u><i>Limpiar</i></u> para empezar de nuevo la verificación, botón <u><i>Atrás</i></u> para regresar a la pantalla 1 de la utilería</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/verificar2/verificar03-elem01.jpg" />
+                    </div>
+                  </div>
+
+                  <span class="bold">Procedimiento</span>
+
+                  <p>En la pantalla 1 se ingresan los códigos de los contenedores que se quieren verificar. Cuando se tenga la lista que se desea verificar se presiona el botón <i>Verificar</i> para ir a la pantalla 2.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/verificar2/proc01.jpg" />
+                  </div>
+
+                  <p>Una vez en la pantalla 2 se ingresan los códigos de los contenedores, cuando se ingresa alguno que esté en la lista previamente cargada se ilumina de amarillo. Al momento de terminar con la lista se reproduce un sonido para indicar el hecho.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/verificar2/proc02.jpg" />
+                  </div>
+
+                </div>
+              </div>
+              <!--/.module-->
+              
+              <div class="module">
+                <div id="busqueda" class="module-head">
+                  <h3>Búsqueda<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+
+                  <p>La utilería de búsqueda de contenedores está disponible en la opción de <i>Utilerías</i> del menú inicial.</p>
+
+                  <div class="align-center">
+                    <img src="img/menu_inicio03-sel02.jpg" />
+                    <img src="img/utils/menu_utils01-sel02.jpg" />
+                  </div>
+
+                  <p>Esta utilería tiene por objeto localizar tareas (autenticadas) a partir de una lista de contenedores. Se pensó para usarse en una situación en la que se tienen varios contenedores pertenecientes a más de una tarea y se requiere diferenciarlos por la tarea a la que pertenecen. Notemos que esta función sólo se puede realizar con las tareas que han sido descargadas (sincronizadas) en el dispositivo móvil. Tenemos tres pantallas:</p>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla 1</span>
+
+                      <p>En la pantalla inicial tenemos estos elementos:</p>
+
+                      <ol>
+                        <li>Título</li>
+                        <li>Panel de contenedores, se muestran los contenedores que se ha ingresado</li>
+                        <li>Botón <u><i>Limpiar</i></u> para borrar la lista de contenedores actual y empezar de nuevo, botón <u><i>Buscar</i></u> para realizar la búsqueda y en caso de haber resultados ir a la pantalla 2, botón <u><i>Cerrar</i></u> para cerrar la utilería y regresar al menú inicial</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/buscar/buscar02-elem01.jpg" />
+                    </div>
+                  </div>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla 2</span>
+
+                      <p>En esta pantalla se muestra el resultado de la búsqueda: la lista de tareas que contienen uno o más de los contenedores ingresados:</p>
+
+                      <ol>
+                        <li>Título</li>
+                        <li>Panel de tareas, se muestra la lista de tareas que contienen uno o más de los contenedores; cada entrada es un botón y llevan a la tercer pantalla con la información de la tarea. El color indica el status de la tarea</li>
+                        <li>Botón <u><i>Atrás</i></u> para regresar a la pantalla 1</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/buscar/buscar04-elem01.jpg" />
+                    </div>
+                  </div>
+
+                  <div style="width:100%; display:table;">
+                    <div style="float:left; width:50%;">
+
+                      <span class="bold">Pantalla 3</span>
+
+                      <p>En esta pantalla mostramos la información de la tarea: tipo, usuario, bóveda asignada, estatus y contenedores.</p>
+
+                      <ol>
+                        <li>Título con el id de la tarea actual</li>
+                        <li>Botón de contenedores, al presionarlo se muestra la lista de contenedores de la tarea actual. Los contenedores que fueron ingresados en la búsqueda se resaltan en color azul</li>
+                        <li>Botón <u><i>Ejecutar</i></u> para cerrar la utilería y ejecutar la tarea actual, botón <u><i>Atrás</i></u> para regresar a la pantalla 2</li>
+                      </ol>
+                    </div>
+
+                    <div style="float:right; width:50%; text-align:center;">
+                      <img src="img/utils/buscar/buscar05-elem01.jpg" />
+                    </div>
+
+                  </div>
+
+                  <p>Al estar en el detalle de la tarea, si se presiona el botón de contenedores (2) se abre la lista de contenedores donde se pueden apreciar en color azul los elementos de la tarea que fueron ingresados ne la búsqueda. Al presionar de nuevo el botón se cierra la lista.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/buscar/buscar05-sel01.jpg" />
+                    <img src="img/utils/buscar/buscar07-sel01.jpg" />
+                  </div>
+
+                  <span class="bold">Procedimiento</span>
+
+                  <p>Estando en la pantalla 1 se ingresan los contenedores de las tareas que queremos identificar. Una vez que ingresamos al menos uno podemos realizar la búsqueda. Recordemos que esta búsqueda sólo se realiza sobre las tareas que ya se encuentran en el dispositivo móvil.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/buscar/proc01.jpg" />
+                  </div>
+
+                  <p>Si alguno de los contenedores ingresados pertenece a alguna de las tareas en el móvil, pasamos a la segunda pantalla con la lista de tareas encontradas.</p>
+
+                  <div class="align-center">
+                    <img src="img/utils/buscar/proc02.jpg" />
+                  </div>
+
+                  <p>Cada entrada en el resultados de la búsqueda es un botón que al ser presionado nos muestra el detalle de la tarea. Ya en el detalle podemos ver, entre otros datos, a qué usuario pertenece, a qué bóveda va, y la lista completa de contenedores de la tarea. Si se quiere ejecutar se presiona el botón <i>Ejecutar</i>, si se quiere realizar otra búsqueda se tiene que regresar a la pantalla 1 de la utilería.</p>
+
+                </div>
+              </div>
+              <!--/.module-->
+
+            </div>
+            <!--/.content-->
+          </div>
+          <!--/.span9-->
+        </div>
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/.wrapper-->
+    <div class="footer">
+      <div class="container">
+        <b class="copyright">&copy; 2015 CoNTI, DGAC </b>
+      </div>
+    </div>
+    <script src="js/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.flot.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.flot.resize.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    
+  </body>

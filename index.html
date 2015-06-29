@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bóvedas Móvil - Manual de Usuario</title>
+    <link type="text/css" href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+    <link type="text/css" href="css/theme.css" rel="stylesheet">
+    <link type="text/css" href="css/font-awesome.css" rel="stylesheet">
+    <link type="text/css" href="css/fonts.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <i class="icon-reorder shaded"></i></a><a class="brand" href="#">Bóvedas Móvil - Manual de Usuario</a>
+        </div>
+      </div>
+      <!-- /navbar-inner -->
+    </div>
+    
+    <!-- /navbar -->
+    <div class="wrapper">
+      <div id="inicio" class="align-center">
+        <h1>Introducción</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="sidebar">
+              <ul class="widget widget-menu unstyled">
+                <li class="active"><a href="#">Introducción</a></li>
+                <!--<li><a href="login.html">Login</a></li>-->
+                <li><a href="sincronizacion.html">Sincronización </a></li>
+                <li><a href="tareas.html">Tareas</a></li>
+                <li><a href="utilerias.html">Utilerías</a></li>
+              </ul>
+              <!--/.widget-nav-->
+            </div>
+            <!--/.sidebar-->
+          </div>
+          <!--/.span3-->
+          <div class="span9">
+            <div class="content">
+              <div class="module">
+                <div class="module-body">
+                  <ol>
+                    <li><a href="#conceptos">Conceptos</a></li>
+                    <li><a href="#computadora">Computadora móvil</a></li>
+                    <!--<li><a href="#tareas">Acerca de las tareas</a></li>-->
+                    <li><a href="#aplicacion">Aplicación móvil</a></li>
+                  </ol>
+                </div>
+              </div>
+
+              <div class="module">
+                <div id="conceptos" class="module-head">
+                  <h3>Conceptos<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+
+                  <ul>
+                    <li><span class="bold">Computadora móvil</span></li>
+                    Por computadora móvil o <i>móvil</i> en adelante, nos
+                    referimos a la computadora que ejecuta la <i>aplicación
+                    móvil</i> para la ejecución de las <i>tareas</i>.
+
+                    <li><span class="bold">Aplicación móvil</span></li>
+                    La aplicación móvil es la aplicación desarrollada para
+                    apoyar al área de bóvedas en las labores relacionadas con el
+                    manejo de los materiales fílmicos. Es la aplicación móvil
+                    la que realiza la <i>sincronización</i>, donde se ejecutan
+                    las <i>tareas</i> y desde donde se entregan los <i>resultados</i>.
+
+                    <li><span class="bold">Sincronización</span></li>
+                    La sincronización la entendemos como el proceso de
+                    intercambio de información entre la aplicación
+                    móvil y el servidor central. Es durante este
+                    intercambio que las <i>tareas</i> se decargan al móvil y
+                    los <i>resultados</i> se envían al servidor
+                    central. También se realiza intercambio de
+                    información adicional, como datos de autenticación
+                    de usuarios, información de nichos y bóvedas,
+                    entre otros.
+
+                    <li><span class="bold">Tarea</span></li>
+                    Por tarea entendemos un trabajo o actividad que el
+                    almacenista tiene que realizar en las bóvedas
+                    utilizando la <i>móvil</i>.  Las tareas se crean
+                    en el sistema central y son descargadas al móvil para su
+                    ejecución por el almacenista al que se asignó la tarea.
+
+                    <li><span class="bold">Resultado</span></li>
+                    Un resultado lo entendemos como la información
+                    obtenida de la realización de la <i>tarea</i> por el
+                    almacenista. Esta información es recabada con la
+                    móvil y es enviada al sistema central una vez que
+                    el almacenista la ha marcado como concluída.
+
+                  </ul>
+
+                </div>
+              </div>
+              <!--/.module-->
+              
+              <div class="module">
+                <div id="computadora" class="module-head">
+                  <h3>Computadora móvil<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+                  <p>Como parte del CLAF, se provee del equipo y el software para que el ingreso, recolección, y en general los movimientos de material desde, en y hacia las bóvedas sea más ágil y más confiable. El presente manual describe las operaciones y la interfaz de la aplicación desarrollada para el dispositivo móvil <u><i>Intermec CK3</i></u> basado en <u><i>Windows Mobile 6</i></u>.</p>
+
+                  <div class="align-center">
+                    <img src="img/ck3/ck3_01.jpg" />
+                  </div>
+
+                  <p>El dispositivo móvil cuenta con un escáner de códigos de barra bidimensionales; éste escáner es activado mediante el gatillo localizado en el mango. Se tiene también la opción de operar el escáner vía el botón que se encuentra entre el teclado y la pantalla.</p>
+
+                  <div class="align-center">
+                    <img src="img/ck3/ck3_02.jpg" />
+                    <img src="img/ck3/ck3_04.jpg" />
+                  </div>
+
+                  <p>Para poder hacer uso de las funciones en la aplicación se requiere que el dispositivo se comunique a un servidor para realizar una "<i>sincronización</i>" de datos. Al momento la forma de comunicar la aplicación en el dispositivo móvil con el servidor es a través de una base que conecta el dispositivo con una computadora personal o laptop vía USB. Esta computadora debe tener acceso a la red. Además de esto se requiere del software <i>ActiveSync</i> o equivalente, por lo que la computadora deberá ejecutar el sistema operativo <i>Windows XP</i> o superior.</p>
+
+                  <!--<p>El dispositivo se recarga colocándolo en una base. Esta base se conecta a una computadora personal vía USB. Para poder hacer uso de la aplicación móvil es necesario que ésta descargue datos desde un servidor, y para poder realizar la conexión al servidor se requiere que el dispositivo esté conectado a la base y la base a la computadora personal, y además se necesita que ésta esté ejecutando el sistema operativo Windows XP o superior y que tenga instalado y configurado el software ActiveSync en Windows XP ó el Centro de Dispositivos en Windows Vista/Windows 7.</p>-->
+
+                  <div class="align-center">
+                    <img src="img/ck3/ck3_03.jpg" />
+                    <img src="img/sync01.jpg" />
+                  </div>
+
+                  <!--<p>Lo anterior se requiere para comunicar la aplicación móvil al servidor y realizar el intercambio de datos (<i>sincronización</i>), del cual se detallará más adelante.</p>-->
+
+                </div>
+              </div>
+              <!--/.module-->
+
+              <!--<div class="module">
+                <div id="tareas" class="module-head">
+                  <h3>Acerca de las tareas</h3>
+                </div>
+                <div class="module-body">
+
+                  <p>lorem ipsum</p>
+
+                </div>
+              </div>-->
+              <!--/.module-->
+
+              <div class="module">
+                <div id="aplicacion" class="module-head">
+                  <h3>Aplicación móvil<span style="float: right;"><a href="#inicio">[inicio]</a></span></h3>
+                </div>
+                <div class="module-body">
+                  <p>El nombre de la aplicación es "<i>BovedasMovil</i>". Luego de la instalación hay un acceso en el menú de inicio.</p>
+
+                  <div class="align-center">
+                    <img src="img/inicio02-sel01.jpg" />
+                  </div>
+
+                  <br>
+                  <p>Si la computadora móvil puede establecer comunicación con el servidor central al inicio, ésta actualizará la lista de usuarios y las tareas de <i>verificación</i> nuevas. Cuando sucede esto se informa al usuario mediante un mensaje.</p>
+
+                  <div class="align-center">
+                    <img src="img/inicio03.jpg" />
+                    <img src="img/login01.jpg" />
+                  </div>
+                  
+                  <br>
+                  <p>Si el usuario ingresa datos de autenticación incorrectos se muestra el mensaje indicándolo.</p>
+                  <div class="align-center">
+                    <img src="img/login02.jpg" />
+                  </div>
+                  <br>
+                  <p>Una vez que se ingresan los datos de autenticación correstamente, se muestra el menú inicial con tres opciones: <i>Tareas</i>, <i>Sincronizar</i> y <i>Utilerías</i>. El botón de <i>Sincronización</i> estará activo o inactivo dependiendo de si existe conexión con una PC con el ActiveSync previamente configurado.</p>
+
+                  <div class="align-center">
+                    <img src="img/menu_inicio00-row01.jpg" />
+                    <img src="img/menu_inicio03-row01.jpg" />
+                  </div>
+                </div>
+              </div>
+              <!--/.module-->
+            </div>
+            <!--/.content-->
+          </div>
+          <!--/.span9-->
+        </div>
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/.wrapper-->
+    <div class="footer">
+      <div class="container">
+        <b class="copyright">&copy; 2015 CoNTI, DGAC </b>
+      </div>
+    </div>
+    <script src="js/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.flot.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.flot.resize.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    
+  </body>
